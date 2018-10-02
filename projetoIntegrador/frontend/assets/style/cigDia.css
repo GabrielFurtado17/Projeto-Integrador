@@ -1,0 +1,52 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFAFA;
+    font-size: 3vh
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 14px;
+} 
+#top {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.economia{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:5vh;
+    
+}
+.visivelEconomia{
+    display: block;
+    padding:2vh;
+    background-color:#00e6e6;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+}
+.resultadoEconomia{
+    display: none;
+    background-color:#00e6e6;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+}
+
+
+#calendar {
+    max-width: 85vw;
+    max-height: 85vh;
+    margin: 40px auto;
+    padding: 0 10px;
+}  

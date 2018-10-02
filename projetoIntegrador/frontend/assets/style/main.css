@@ -1,0 +1,52 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFAFA;
+    font-size: 3vh
+}
+
+.mid, .mid>*{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh
+}
+.mid{
+    overflow: auto
+}
+.mensagens{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 90vw;
+}
+.dia{
+    font-size: 2vh;
+    width: 60%
+}
+
+.formLogin{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column
+}
+button.deslogar{
+    margin-top: 4vh;
+    border-radius: 4px;
+    height: 5vh;
+    background-color: #00e6e6;
+    font-size: 3vmin
+} 
+button.delete{
+    margin-top: 4vh;
+    border-radius: 4px;
+    height: 5vh;
+    background-color: #00e6e6;
+    font-size: 3vmin
+} 
+
+

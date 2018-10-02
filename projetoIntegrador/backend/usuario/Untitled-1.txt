@@ -1,0 +1,10 @@
+    $sql = 'SELECT saiu, count(sc.idusuario) FROM saidaCigarro sc
+        INNER JOIN usuario u 
+        ON u.idusuario = sc.idusuario 
+             WHERE u.idusuario = :id';
+    $statement = $banco->prepare($sql);
+    $statement->execute([
+        'id' = $_SESSION['idusuario']
+    ]); 
+    $result = $statement->fetch(PDO::FETCH_ASSOC);
+    echo json_encode($result)

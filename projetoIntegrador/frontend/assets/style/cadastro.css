@@ -1,0 +1,30 @@
+.voltar{
+    align-content: center;
+    display: flex;
+    flex: none;
+    flex-grow: 1;
+    background-color: #1E90FF ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vh 
+}
+input{
+    padding: 1vmin;
+    border-radius: 1vh;
+    width: 80vw;
+    font-size: 3vmin;
+    margin-top: 3vh;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #00e6e6
+}
+
+button.realizarCadastro{
+    margin-top: 4vh;
+    border-radius: 4px;
+    height: 5vh;
+    background-color: #00e6e6;
+    font-size: 3vmin
+}  
