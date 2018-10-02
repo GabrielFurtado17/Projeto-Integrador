@@ -1,3 +1,4 @@
+var respfetch
 $(document).ready(function() {
     var initialLocaleCode = 'pt-br';
 
@@ -40,10 +41,10 @@ $(document).ready(function() {
             body: await JSON.stringify(sendDate)
         })
         let resp = await teste.json()
+        respfetch = resp
         resp.result.forEach(dia=>{
             dia.data = dia.data.substring(0,10)
             let container = document.querySelector('[data-date="'+dia.data+'"]')
-            let economia = document.querySelector('')
             let media = parseInt(resp.media)
             let qtd = parseInt(dia.qtd)
             let pct = qtd * 100/ media
@@ -93,17 +94,21 @@ $(document).ready(function() {
     }   
     corDosDias  ()
 });
-function ocutarEconomia(){
-    let result = document.querySelector('.resultadoEconomia')
-    result.style.display = 'none'
-}
-function mostrarEconomia(){
-    let result = document.querySelector('.resultadoEconomia')
-    result.style.display = 'block'
-    result.addEventListener('click', ev => ocutarEconomia())
-    
-}
-let economia = document.querySelector('.economia')
-economia.addEventListener('click', ev =>  mostrarEconomia() ) 
 let divResultadoEconomia = document.querySelector('.resultadoEconomia')
-divResultadoEconomia.addEventListener('click', ev =>  ocutarEconomia() ) 
+let economia = document.querySelector('.visivelEconomia')
+economia.addEventListener('click', ev =>  {
+    let quantidadeDias = parseInt(respfetch.result.length)
+    let media =parseInt(respfetch.media)
+    let aux = 0
+    respfetch.result.forEach(dia=>{
+        let qtd = parseInt(dia.qtd)
+        aux = aux + qtd
+    })
+    let qtdFumadaMes = parseInt(aux)
+    console.log(qtdFumadaMes)
+    qtd = (quantidadeDias * media) - qtdFumadaMes
+
+
+    let resposta = 'Voce deixou de fumar: '+qtd+' cigarros'
+    swal('Parabéns', resposta, 'info')
+})
