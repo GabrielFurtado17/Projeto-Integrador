@@ -31,6 +31,7 @@
             session_start();
             $_SESSION['idusuario'] = $result['idusuario'];
             $_SESSION['qtdMediaFumada'] = $result['qtdMediaFumada'];
+            $_SESSION['preco'] = $result['preco'];
             $_SESSION['email'] = $objRecebido->email;
             $_SESSION['senha'] = $objRecebido->senha;
             die(json_encode(array('authenticated'=>true)));
