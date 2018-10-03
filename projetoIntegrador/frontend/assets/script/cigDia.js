@@ -9,9 +9,9 @@ $(document).ready(function() {
         right: 'month'
     },
     height: 450,
-    defaultDate: '2018-09-05',
+    defaultDate: '2018-10-02',
     locale: initialLocaleCode,
-    buttonIcons: false, // show the prev/next text
+    buttonIcons: true, // show the prev/next text
     weekNumbers: false,
     navLinks: false, // can click day/week names to navigate views
     editable: true,
@@ -106,9 +106,12 @@ economia.addEventListener('click', ev =>  {
     })
     let qtdFumadaMes = parseInt(aux)
     console.log(qtdFumadaMes)
-    qtd = (quantidadeDias * media) - qtdFumadaMes
+    let preco = parseInt(respfetch.preco)
 
 
-    let resposta = 'Voce deixou de fumar: '+qtd+' cigarros'
+    qtd = ((quantidadeDias * media) - qtdFumadaMes)*(preco/20)
+
+
+    let resposta = 'Voce economizou: '+qtd+' reais.'
     swal('Parabéns', resposta, 'info')
 })
