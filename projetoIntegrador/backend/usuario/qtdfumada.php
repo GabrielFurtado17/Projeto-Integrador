@@ -22,6 +22,7 @@
             // echo ($_SESSION['qtdMediaFumada']);
             die (json_encode((object)[
                 'media'=>$_SESSION['qtdMediaFumada'],
+                'preco'=>$_SESSION['preco']
                 'result'=>$result]));
         }catch(Exception $erro) {
             die("algo deu errado parceiro $erro");
