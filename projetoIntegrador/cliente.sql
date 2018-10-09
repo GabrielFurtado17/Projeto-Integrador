@@ -45,7 +45,6 @@ CREATE TABLE entradaCigarro(
 -- var sendDate = `${d.year()}-${d.month()+1}-${d.day()}`
 -- console.log(sendDate)
 
-
 -- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('2', '1', '2018-10-02 00:00:00');
 -- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('3', '1', '2018-10-02 00:00:00');
 
@@ -98,3 +97,13 @@ CREATE TABLE entradaCigarro(
 -- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('44', '1', '2018-10-09 00:00:00');
 -- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('45', '1', '2018-10-09 00:00:00');
 
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('46', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('47', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('48', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('49', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('50', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('51', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('52', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('53', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('54', '1', '2018-10-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idsaidaCigarro`, `idusuario`, `dataSaida`) VALUES ('55', '1', '2018-10-10 00:00:00');
