@@ -16,7 +16,7 @@
     }
     
     try{
-        $sql = 'SELECT idusuario, qtdMediaFumada FROM usuario 
+        $sql = 'SELECT idusuario, qtdMediaFumada, preco FROM usuario 
             WHERE email=:email AND senha = :senha';
         $statement = $banco->prepare($sql);
         $statement->execute([
