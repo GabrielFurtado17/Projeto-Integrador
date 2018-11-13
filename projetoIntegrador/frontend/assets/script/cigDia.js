@@ -75,7 +75,7 @@ $(document).ready(function () {
             right: 'month'
         },
         height: 450,
-        defaultDate: '2018-10-02',
+        defaultDate: '2018-11-02',
         locale: initialLocaleCode,
         buttonIcons: true, // show the prev/next text
         weekNumbers: false,
