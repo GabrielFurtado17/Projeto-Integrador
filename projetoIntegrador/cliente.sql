@@ -21,6 +21,11 @@ CREATE TABLE entradaCigarro(
     primary key (identradaCigarro),
     FOREIGN KEY (idusuario) REFERENCES usuario(idusuario) ON DELETE CASCADE
 );
+CREATE TABLE mensagens(
+    idmensagem int NOT NULL AUTO_INCREMENT,
+    texto varchar(255) NOT NULL,
+    primary key (idmensagem)
+)
 
 
 --  try{

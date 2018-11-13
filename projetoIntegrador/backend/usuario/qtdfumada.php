@@ -7,27 +7,62 @@
         $strRecebido = file_get_contents('php://input'); // pega parada
         // echo($strRecebido); // to testando a parada que veio, pra ver se veio mesmo
         $objRecebido = json_decode($strRecebido);// tirando json
+        if(!isset($objRecebido)){
+            $resultado = read();
+        }
+        else{
+            $resultado = read($objRecebido);
+        }
 
-        try{
-            // $sql = 'SELECT dataSaida as data, COUNT(dataSaida) as qtd  FROM saidacigarro sc
-            //     INNER JOIN usuario u 
-            //         ON u.idusuario = sc.idusuario
-            // WHERE MONTH(:sendDate) AND u.idusuario =:idusuario GROUP BY DAY(dataSaida)';
-
+        // function read ($objRecebido=null){
+        //     if (!isset($objRecebido)) {
+        //         $sql = 'SELECT dataSaida as `data`, COUNT(dataSaida) AS qtd
+        //             FROM saidacigarro
+        //             WHERE 1 AND idusuario = :idusuario
+        //             GROUP BY
+        //                 DAY(dataSaida)';
+        //         $statement = $banco->prepare($sql);
+        //     }else {
+        //         $sql = 'SELECT dataSaida as `data`, COUNT(dataSaida) AS qtd
+        //             FROM saidacigarro
+        //             WHERE 1 AND dataSaida >= :sendDate AND MONTH(dataSaida) < (MONTH(:sendDate)+1) AND idusuario = :idusuario
+        //             GROUP BY
+        //                 DAY(dataSaida)';
+        //         $statement = $banco->prepare($sql);
+        //     }
+        //     $statement->execute([
+        //         "idusuario" => $_SESSION['idusuario'],
+        //         "sendDate" => $objRecebido
+        //     ]);
+        //     $resultado = $statement->fetchAll(PDO::FETCH_ASSOC);
+        //     return $resultado;
+        // }
+    }
+    
+    function read ($objRecebido=null){
+        if (!isset($objRecebido)) {
+            $banco = include "../pdo.php"; //conecta com o banco
             $sql = "
-                SELECT 
-                    dataSaida as `data`,
-                    COUNT(dataSaida) AS qtd
-                FROM 
-                    saidacigarro
-                WHERE 
-                    1
-                    AND dataSaida >= :sendDate
-                    AND MONTH(dataSaida) < (MONTH(:sendDate)+1)
-                    AND idusuario = :idusuario
+            SELECT dataSaida AS `data`, COUNT(dataSaida) AS qtd
+                FROM saidacigarro
+                WHERE 1 AND idusuario = :idusuario
                 GROUP BY
-                    DAY(dataSaida)
-            ";
+                    DAY(dataSaida)"
+                    ;
+            $statement = $banco->prepare($sql);
+            $statement->execute([
+                "idusuario" => $_SESSION['idusuario']
+            ]);
+            $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+            die (json_encode($result));
+        }else {
+            $banco = include "../pdo.php"; //conecta com o banco
+            $sql = "
+                SELECT dataSaida AS `data`, COUNT(dataSaida) AS qtd
+                FROM saidacigarro
+                WHERE 1 AND dataSaida >= :sendDate AND MONTH(dataSaida) < (MONTH(:sendDate)+1) AND idusuario = :idusuario
+                GROUP BY
+                DAY(dataSaida)";
             $statement = $banco->prepare($sql);
             $statement->execute([
                 "idusuario" => $_SESSION['idusuario'],
@@ -39,8 +74,29 @@
                 'media'=>$_SESSION['qtdMediaFumada'],
                 'preco'=>$_SESSION['preco'],
                 'result'=>$result]));
-        }catch(Exception $erro) {
-            die("algo deu errado parceiro $erro");
         }
+        $resultado = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $resultado;
     }
+    //     try{
+    //         // $sql = 'SELECT dataSaida as data, COUNT(dataSaida) as qtd  FROM saidacigarro sc
+    //         //     INNER JOIN usuario u 
+    //         //         ON u.idusuario = sc.idusuario
+    //         // WHERE MONTH(:sendDate) AND u.idusuario =:idusuario GROUP BY DAY(dataSaida)';
+
+    //         $sql = 'SELECT dataSaida as `data`, COUNT(dataSaida) AS qtd
+    //             FROM saidacigarro
+    //             WHERE 1 AND dataSaida >= :sendDate AND MONTH(dataSaida) < (MONTH(:sendDate)+1) AND idusuario = :idusuario
+    //             GROUP BY
+    //                 DAY(dataSaida)';
+    //         $statement = $banco->prepare($sql);
+    //         $statement->execute([
+    //             "idusuario" => $_SESSION['idusuario'],
+    //             "sendDate" => $objRecebido
+    //         ]);
+    //         
+    //     }catch(Exception $erro) {
+    //         die("algo deu errado parceiro $erro");
+    //     }
+    // }
         
