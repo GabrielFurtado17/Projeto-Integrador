@@ -43,7 +43,7 @@
         if (!isset($objRecebido)) {
             $banco = include "../pdo.php"; //conecta com o banco
             $sql = "
-            SELECT dataSaida AS `data`, COUNT(dataSaida) AS qtd
+            SELECT DATE_FORMAT(dataSaida,'%d/%m/%Y')  AS `data`, COUNT(dataSaida) AS qtd
                 FROM saidacigarro
                 WHERE 1 AND idusuario = :idusuario
                 GROUP BY

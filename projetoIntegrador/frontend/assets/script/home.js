@@ -40,7 +40,6 @@ async function testemaroto() {
         loginFailed()
     }
 }
-
 async function buscarMensagens(){
     let reqMsg = await fetch('http://127.0.0.1/projetoIntegrador/backend/usuario/readMensagens.php')
     let respMensagens = await reqMsg.json()

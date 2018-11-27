@@ -50,68 +50,68 @@ CREATE TABLE mensagens(
 -- var sendDate = `${d.year()}-${d.month()+1}-${d.day()}`
 -- console.log(sendDate)
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-02 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-02 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-02 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-02 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-03 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-03 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-03 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-03 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-03 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-03 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-04 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-04 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-04 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-04 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-04 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-04 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-04 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-04 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-05 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-05 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-05 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-05 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-05 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-05 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-05 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-05 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-05 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-05 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-06 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-07 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-08 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-09 00:00:00');
 
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
--- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1004', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
+-- INSERT INTO `saidacigarro` (`idusuario`, `dataSaida`) VALUES ('1', '2018-11-10 00:00:00');
 
 -- MENSAGENS
 

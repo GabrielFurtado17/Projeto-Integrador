@@ -9,7 +9,10 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 5vh 
+    height: 04%;
+}
+.top > * {
+    font-size: 4.5vw
 }
 .imagem{
     margin-top: 3vh;
